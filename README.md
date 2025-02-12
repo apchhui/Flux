@@ -22,7 +22,7 @@ Inserts a record as a string into the database.
 
 **Usage:**
 ```sh
-write_str "Hello, World!"
+write_str Hello, World!
 ```
 
 ---
@@ -44,7 +44,7 @@ Searches for records containing the given query string.
 
 **Usage:**
 ```sh
-search "Hello"
+search Hello
 ```
 
 ---
@@ -55,7 +55,7 @@ Searches for records that exactly match the given query string.
 
 **Usage:**
 ```sh
-search_exact "Hello, World!"
+search_exact Hello, World!
 ```
 
 ---
@@ -66,7 +66,7 @@ Searches for records using a regular expression pattern.
 
 **Usage:**
 ```sh
-search_regex "^H.*!$"
+search_regex ^H.*!$
 ```
 
 ---
@@ -88,7 +88,7 @@ Deletes records that contain the given content.
 
 **Usage:**
 ```sh
-delete_by_content "Hello"
+delete_by_content Hello
 ```
 
 ---
